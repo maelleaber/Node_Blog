@@ -1,0 +1,23 @@
+extends layout.pug
+ 
+block variables
+    - let title = 'Accueil';
+
+block additionalStyles
+    link(rel="stylesheet", href="article.css")
+ 
+block content
+
+    <div class="main">
+
+        <div class="article">
+            <a href="" class="retour"> Retour à l'accueil </a>
+            <h2 class="titre"> Titre </h2>
+            <p class="date">Publié le jj/mm/aaaa à hh:mm par Auteur</p>
+            <p class="date">Catégorie</p>
+
+
+            <p class="texte"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis at diam in imperdiet. Ut molestie felis turpis, id congue arcu venenatis id. Aliquam sit amet volutpat tellus. Ut quis molestie libero. Quisque malesuada diam ut libero rhoncus feugiat. Morbi eget molestie nisl. Curabitur augue neque, auctor vel massa vel, cursus condimentum enim. Mauris lacinia tellus vitae blandit sodales. Vestibulum fringilla sapien et dui convallis dictum. </p>
+
+        </div>
+    </div>

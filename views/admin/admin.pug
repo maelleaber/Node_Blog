@@ -1,0 +1,66 @@
+extends ../layout.pug
+ 
+block variables
+    - let title = 'Accueil';
+
+block additionalStyles
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous")
+    link(rel="stylesheet", href="admin.css")
+ 
+block content
+
+    <div class="main">
+
+        <div class="admin">
+            <div class="head">
+                <h2> Administration </h2>
+                <a href="#" class=""> Poster un article </a>
+            </div>
+
+            <div class="tableau">
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Date de publication</th>
+                        <th scope="col">Titre</th>
+                        <th scope="col">Auteur</th>
+                        <th scope="col">Catégorie</th>
+                        <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th scope="row">1</th>
+                        <td>JJ/MM/AAAA</td>
+                        <td>Titre</td>
+                        <td>Moi</td>
+                        <td>Cat</td>
+                        <td> <a href="#" class="btn btn-primary"> modifier </a> <a href="#" class="btn btn-danger"> supprimer </a> </td>
+                        </tr>
+                        <tr>
+                        <th scope="row">2</th>
+                        <td>JJ/MM/AAAA</td>
+                        <td>Titre</td>
+                        <td>Moi</td>
+                        <td>Cat</td>
+                        <td> <a href="#" class="btn btn-primary"> modifier </a> <a href="#" class="btn btn-danger"> supprimer </a> </td>
+                        </tr>
+                        <tr>
+                        <th scope="row">3</th>
+                        <td>JJ/MM/AAAA</td>
+                        <td>Titre</td>
+                        <td>Moi</td>
+                        <td>Cat</td>
+                        <td> <a href="#" class="btn btn-primary"> modifier </a> <a href="#" class="btn btn-danger"> supprimer </a> </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+
+        </div>
+    </div>

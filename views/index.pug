@@ -1,0 +1,37 @@
+
+extends layout.pug
+ 
+block variables
+    - let title = 'Accueil';
+
+block additionalStyles
+    link(rel="stylesheet", href="index.css")
+ 
+block content
+
+    <div class="main">
+        <div class="welcome">
+            <h1> Bienvenue sur mon blog </h1>
+        </div>
+
+        <div class="liste_articles">
+            <div class="article">
+                <h2 class="titre"> Titre 1 </h2>
+                <p class="texte"> blablablabla .... <a href="#"> lire la suite </a></p>
+                <p class="date"> Publié le jj/mm/aaaa à hh:mm par Auteur </p>
+                <p class="date"> catégorie </p>
+            </div>
+            <div class="article">
+                <h2 class="titre"> Titre 2 </h2>
+                <p class="texte"> blablablabla .... <a  href="#"> lire la suite </a></p>
+                <p class="date"> Publié le jj/mm/aaaa à hh:mm par Auteur</p>
+                <p class="date"> catégorie </p>
+            </div>
+            <div class="article">
+                <h2 class="titre"> Titre 3 </h2>
+                <p class="texte"> blablablabla .... <a  href="#"> lire la suite </a></p>
+                <p class="date"> Publié le jj/mm/aaaa à hh:mm par Auteur</p>
+                <p class="date"> catégorie </p>
+            </div>
+        </div>
+    </div>

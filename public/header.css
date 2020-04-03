@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #C3EDFC;
+    color: #27416B;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.adminbtn{
+    background-color:  #02A988;
+    color: white; 
+    padding: 10px;
+    border-radius: 10px;
+    height: 15px;
+    text-decoration: none;
+}

@@ -1,0 +1,53 @@
+extends ../layout.pug
+ 
+block variables
+    - let title = 'Accueil';
+
+block additionalStyles
+    link(rel="stylesheet", href="edit.css")
+ 
+block content
+
+    <div class="main"> 
+
+        <div class="head">
+            <a href="" class="retour"> Retour à la page admin </a>
+            h1 Ecrire un nouvel article
+        </div> 
+
+        <div class="modif">
+            <form action="#">
+
+                label(for="titre") Titre : 
+                br
+                input(type="text", name="titre")
+                br
+                label(for="categories") Catégorie : 
+                br
+                select(name="categories")
+                    option(value="cat1") cat1
+                    option(value="cat2") cat2
+                    option(value="cat3") cat3
+                br
+                label(for="contenu") Contenu : 
+                br
+                textarea(name="contenu", cols="50", rows="20")
+                br
+                label(for="auteur") Catégorie : 
+                br
+                select(name="auteur")
+                    option(value="aut1") seokjin
+                    option(value="aut2") dokyeom
+                    option(value="aut3") jaehyun
+                br
+                br
+                button(type="sumbit") Poster
+            
+
+
+            </form>
+        </div> 
+
+
+
+    </div>

@@ -1,0 +1,19 @@
+.admin{
+
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.tableau{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+table{
+    margin: auto;
+}
